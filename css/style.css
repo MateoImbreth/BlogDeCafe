@@ -84,3 +84,45 @@ img{
     color: var(--blanco);
     margin-top: 5rem;
 }
+
+.header__texto--titulo{
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .header__texto--titulo{
+        line-height: 2;
+        margin-top: 12rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo{
+    color: var(--blanco);
+}
+.logo__nombre{
+    font-weight: 400;
+}
+.logo__bold{
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .navegacion{
+        display: flex; 
+        gap: 2rem;
+    }
+}
+
+.navegacion__enlace{
+    display: block;
+    color:var(--blanco);
+}
