@@ -6,6 +6,7 @@
     --primario: #784d3c;
     --blanco: #ffffff;
     --negro: #000000;
+    --gris: #e1e1e1;
 }
 
 html{
@@ -132,4 +133,35 @@ img{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
+}
+
+.entrada{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type{
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+.boton{
+    display: block; /*Para que en un dispositivo movil tome todo el espacio disponible*/
+    font-family: var(--fuenteHeading);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    color: var(--blanco);
+} 
+
+@media (min-width: 768px) {
+    .boton{
+        display: inline-block;
+    }
+}
+
+.boton--primario{
+    background-color: var(--negro);
 }
