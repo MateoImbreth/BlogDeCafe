@@ -100,7 +100,7 @@ img{
 }
 
 .barra{
-    padding-top: 3rem;
+    padding-top: 4rem;
 }
 @media (min-width: 768px) {
     .barra{
@@ -115,6 +115,7 @@ img{
 }
 .logo__nombre{
     font-weight: 400;
+    font-size: 4.8rem;
 }
 .logo__bold{
     font-weight: 700;
@@ -131,6 +132,7 @@ img{
 .navegacion__enlace{
     display: block;
     color:var(--blanco);
+    font-size: 1.8rem;
 }
 
 /** Contenido Principal**/
@@ -217,7 +219,7 @@ img{
 .footer{
     background-color: var(--negro);
     padding-bottom: 3rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 @media (min-width: 768px) {
